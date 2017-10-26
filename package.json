@@ -6,7 +6,10 @@
   "private": false,
   "scripts": {
     "build:template": "webpack template=./src/template-syntax-sample.js --config webpack.prod.js",
-    "start:template": "webpack-dev-server template=./src/template-syntax-sample.js --open --config webpack.dev.js"
+    "start:template": "webpack-dev-server template=./src/template-syntax-sample.js --open --config webpack.dev.js",
+
+    "build:computed": "webpack computed=./src/computed-sample.js --config webpack.prod.js",
+    "start:computed": "webpack-dev-server computed=./src/computed-sample.js --open --config webpack.dev.js"
   },
   "dependencies": {
     "vue": "^2.4.4"
