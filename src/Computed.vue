@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       firstValue: this.firstName,
-      lastValue: this.lastValue
+      lastValue: this.lastName
     };
   },
   computed: {
