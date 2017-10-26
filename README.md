@@ -7,21 +7,21 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
-npm run start
+# Template Syntax Sample serve with hot reload at localhost:8080
+npm run start:template
 
-# build for production with minification
-npm run build
+# Template Syntax Sample build for production with minification
+npm run build:template
 
 # if you use yarn
 # install dependencies
 yarn install
 
-# serve with hot reload at localhost:8080
-yarn start
+# Template Syntax Sample serve with hot reload at localhost:8080
+yarn start:template
 
-# build for production with minification
-yarn build
+# Template Syntax Sample build for production with minification
+yarn build:template
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

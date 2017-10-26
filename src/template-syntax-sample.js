@@ -9,7 +9,13 @@ window.onload = () => {
 
   window.app = new Vue({
     el: '#app-template',
-    template: '<TemplateSyntax :message="message" :rawHtml="rawHtml" :dynamicId="dynamicId" :isButtonDisabled="buttonEnabled" :seen="seen" :url="url" />',
+    template: `<TemplateSyntax 
+      :message="message" 
+      :rawHtml="rawHtml" 
+      :dynamicId="dynamicId" 
+      :isButtonDisabled="buttonEnabled" 
+      :seen="seen" 
+      :url="url" />`,
     components: { TemplateSyntax },
     data: {
       message: 'Hello Vue!',
