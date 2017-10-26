@@ -3,14 +3,9 @@ const webpack = require('webpack')
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
-  entry: {
-    app: './src/main.js',
-  },
   plugins: [
     new CleanWebpackPlugin([ 'dist' ]),
-    new HtmlWebpackPlugin({
-      title: 'Hello'
-    }),
+    new HtmlWebpackPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common'
     })
